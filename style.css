@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --green :#9FC969;
+}
 #navbar{
     border: 1px solid black;
     display: flex;
@@ -22,30 +25,37 @@
     visibility: hidden;
 }
 #navbar .left-li{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin-left: 12rem;
     position: absolute;
     justify-content: space-between;
     width: 15rem;
     list-style: none;
+    font-family: sans-serif ;
 }
 #navbar  a{
     text-decoration: none;
+    color: black;
 }
 #navbar .right-li{
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     justify-content: space-between;
     width: 8rem;
     position: absolute;
     margin-left: 49rem;
     list-style: none;
-    
+    font-family: 'Open Sans Soft Regular';
+    color: black;
 }
 #navbar .logo img{
     height: 65px;
     max-width: 150px;
     margin-bottom: .8rem;
     margin-top: .8rem;
+}
+#navbar  a:hover{
+    color: var(--green);
+    cursor: pointer;
 }
