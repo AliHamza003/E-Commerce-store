@@ -13,18 +13,39 @@
 }
 #navbar .hide-li{
     border: 1px solid red;
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    
+}
+#navbar .hide-li{
+    visibility: hidden;
 }
 #navbar .left-li{
     border: 1px solid red;
     display: flex;
-    margin-left: 15rem;
+    margin-left: 12rem;
     position: absolute;
     justify-content: space-between;
     width: 15rem;
     list-style: none;
-    text-decoration:none;
+}
+#navbar  a{
+    text-decoration: none;
 }
 #navbar .right-li{
     border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    position: absolute;
+    margin-left: 49rem;
+    list-style: none;
     
+}
+#navbar .logo img{
+    height: 65px;
+    max-width: 150px;
+    margin-bottom: .8rem;
+    margin-top: .8rem;
 }
