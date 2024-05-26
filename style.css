@@ -7,7 +7,24 @@
     border: 1px solid black;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    justify-content:space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#navbar .hide-li{
+    border: 1px solid red;
+}
+#navbar .left-li{
+    border: 1px solid red;
+    display: flex;
+    margin-left: 15rem;
+    position: absolute;
+    justify-content: space-between;
+    width: 15rem;
+    list-style: none;
+    text-decoration:none;
+}
+#navbar .right-li{
+    border:1px solid red;
+    
 }
