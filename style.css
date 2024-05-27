@@ -64,5 +64,8 @@
 /* ######## Navbar Ended ###### */
 
 /* ################## HERO SECTION Started #################  */
-
+.hero-container{
+    height: 45rem;
+    border: 1px solid red;
+}
 /* ################## HERO SECTION Ended ################# */
