@@ -6,6 +6,8 @@
 :root{
     --green :#9FC969;
 }
+
+/* ######## Navbar Started ###### */
 #navbar{
     border: 1px solid black;
     display: flex;
@@ -59,3 +61,8 @@
     color: var(--green);
     cursor: pointer;
 }
+/* ######## Navbar Ended ###### */
+
+/* ################## HERO SECTION Started #################  */
+
+/* ################## HERO SECTION Ended ################# */
