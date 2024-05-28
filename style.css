@@ -81,7 +81,10 @@
 .hero-container .content-container{
     /* border:  1px solid red; */
     margin-top: 7.5rem; 
-    
+    background-image: url('/logo-leaf-new.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 222px 150px;
 }
 .content-container h5{
     padding-top: 1.5rem;
@@ -145,10 +148,5 @@
 .cart-container #cart-4{
     margin-right: 1.3rem;
 }
-.content-container #t-img{
-opacity: 0.5;
-width: 200px;
-position: relative;
-margin-left: 7rem;
-}
+
 /* ################## HERO SECTION Ended ################# */
