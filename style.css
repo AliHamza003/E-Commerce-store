@@ -67,7 +67,7 @@
 
 /* ################## HERO SECTION Started #################  */
 .hero-container{
-    height: 38rem;
+    height: 39rem;
     background-color:var(--mc);
     display: grid;
     grid-template-columns: 55% 45%;
@@ -95,14 +95,16 @@
     font-size: 1.1rem;
 }
 .hero-container .img-container img{
-    margin-top: 6rem;
-    width: 360.5px;
-    height: 278px;
+    margin-top: 5rem;
+    vertical-align: middle;
+    height: 460px;
+    width: 500px;
+    position: relative;
     margin-left: 2rem;
 }
 .content-container button{
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     width: 9rem;
     height: 2.7rem;
     border: none;
