@@ -66,15 +66,21 @@
 /* ################## HERO SECTION Started #################  */
 .hero-container{
     height: 45rem;
-    border: 1px solid red;
+    
     display: grid;
+    grid-template-columns: 50% 50%;
 }
 .hero-container .img-container{
     border: 1px solid red;
-    width: 20rem;
+    
 }
 .hero-container .content-container{
     border:  1px solid red;
-    width: 50%;
+    
+}
+.hero-container .img-container img{
+    margin-top: 6rem;
+    
+    margin-left: 2rem;
 }
 /* ################## HERO SECTION Ended ################# */
