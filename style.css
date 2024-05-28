@@ -4,7 +4,8 @@
     margin: 0;
 }
 :root{
-    --green :#9FC969;
+    --pgreen :#9FC969;
+    --sgreen :#6A9739;
     --mc:#FAFAF8;
 }
 
@@ -59,14 +60,14 @@
     margin-top: .8rem;
 }
 #navbar  a:hover{
-    color: var(--green);
+    color: var(--pgreen);
     cursor: pointer;
 }
 /* ######## Navbar Ended ###### */
 
 /* ################## HERO SECTION Started #################  */
 .hero-container{
-    height: 45rem;
+    height: 38rem;
     background-color:var(--mc);
     display: grid;
     grid-template-columns: 55% 45%;
@@ -98,5 +99,14 @@
     width: 360.5px;
     height: 278px;
     margin-left: 2rem;
+}
+.content-container button{
+    display: inline-block;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 2.7rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--sgreen);
 }
 /* ################## HERO SECTION Ended ################# */
