@@ -67,5 +67,14 @@
 .hero-container{
     height: 45rem;
     border: 1px solid red;
+    display: grid;
+}
+.hero-container .img-container{
+    border: 1px solid red;
+    width: 20rem;
+}
+.hero-container .content-container{
+    border:  1px solid red;
+    width: 50%;
 }
 /* ################## HERO SECTION Ended ################# */
