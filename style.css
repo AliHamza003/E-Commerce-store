@@ -81,10 +81,10 @@
 .hero-container .content-container{
     /* border:  1px solid red; */
     margin-top: 7.5rem; 
-    background-image: url('/logo-leaf-new.png');
+    background-image:url('\content img.png');
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 222px 150px;
+    
 }
 .content-container h5{
     padding-top: 1.5rem;
