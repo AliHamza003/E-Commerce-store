@@ -166,4 +166,8 @@ margin-right: -1rem;
     border: 1px solid red;
     height: 32rem;
 }
+.products-container .groceries-products{
+    border: 1px solid red;
+    height: 15rem;
+}
 /* ################## Products SECTION Ended ################# */
