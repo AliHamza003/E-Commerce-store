@@ -162,5 +162,8 @@ margin-right: -1rem;
 /* ################## HERO SECTION Ended ################# */
 
 /* ################## Products SECTION Started ################# */
-
+.products-container{
+    border: 1px solid red;
+    height: 32rem;
+}
 /* ################## Products SECTION Ended ################# */
