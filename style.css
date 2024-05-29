@@ -169,5 +169,8 @@ margin-right: -1rem;
 .products-container .groceries-products{
     border: 1px solid red;
     height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 /* ################## Products SECTION Ended ################# */
