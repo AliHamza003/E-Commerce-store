@@ -167,27 +167,25 @@ margin-right: -1rem;
     height: 32rem;
 }
 .products-container .groceries-products{
-    border: 1px solid red;
-    height: 15rem;
+    /* border: 1px solid red; */
+    height: 20rem;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    margin-left: 8px;
+    margin-right: 8px;
 
 }
 .groceries-products .cards{
     display: inline-block;
     border: 1px solid red;
-    width: 300px;
-    height: 300px;
-            overflow: hidden; /* To prevent the image from overflowing the container */
-            position: relative;
-            justify-content: center;
-            align-items: center;
+    width: 260px;
+    height: 260px;
+
 }
-.card img{
-    width: 100%; /* Scale the image to fit the container width */
-            height: auto; /* Maintain aspect ratio */
-            max-height: 100%; /* Ensure image height does not exceed container height */
-            display: block;
-            object-fit: cover;
+.cards img{
+    width: 100%; 
+    display: block;
+    object-fit: cover;
+
 }
 /* ################## Products SECTION Ended ################# */
