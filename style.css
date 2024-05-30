@@ -286,4 +286,8 @@ margin-right: -1rem;
     display: block;
     margin-top: -2.4rem;
 }
+
+.mix-products .discount-card{
+    border: 1px solid red;
+}
 /* ################## Products SECTION Ended ################# */
