@@ -248,6 +248,11 @@ margin-right: -1rem;
     display: block;
     object-fit:fill;
 }
+.mix-products .cards .card-inner-content{
+    position: absolute;
+    margin-top: -300px;
+    border: 1px solid blue;
+}
 
 .products-container #mix-p-img{
     margin-left: auto;
