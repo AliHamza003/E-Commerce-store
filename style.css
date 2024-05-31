@@ -428,6 +428,10 @@ margin-right: -1rem;
     position: relative;
     height: 380px;
     margin-top: auto;
+    
+}
+.client-testomonials #deals-card h2{
+    color: white;
 }
 .client-testomonials .cards .star-rating span{
     margin-top: 3rem;
