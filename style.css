@@ -328,11 +328,21 @@ margin-right: -1rem;
     border: 1px solid red;
     height: 50rem;
 }
-.t-products-container h2{
+.t-products-container .main-heading{
     text-align: center;
+    padding-top: 1.5rem;
+    line-height: 1.3rem;
+    font-size: 2.5rem;
+    
 }
 .t-products-container img{
     margin-left: 50%;
     margin-right: 50%;
+    display: block;
+    margin-top: .5rem;
+    
+}
+.t-products-container .tranding-products{
+
 }
 /*################## Trainding Products SECTION Ended ################# */
