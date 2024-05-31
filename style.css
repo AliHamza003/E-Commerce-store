@@ -335,12 +335,11 @@ margin-right: -1rem;
     font-size: 2.5rem;
     
 }
-.t-products-container img{
-    margin-left: 50%;
-    margin-right: 50%;
+.t-products-container #tranding-img{
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin-top: .5rem;
-    
+    margin-top: 2rem;
 }
 .t-products-container .tranding-products{
         /* border: 1px solid red; */
@@ -352,12 +351,38 @@ margin-right: -1rem;
         margin-top: 3rem;
     
 }
-.tarnding-products .cards{
+.t-products-container .tranding-products .cards{
     display: inline-block;
     border: 1px solid red;
     width: 260px;
     height: 260px;
     justify-content: center;
     text-align: center;
+}
+.tranding-products .cards img{
+    width: 100%; 
+    display: block;
+    object-fit: cover;
+}
+.tranding-products .cards #item-type{
+    color: #B0B0B0;
+    padding-top: .8rem;
+    display: inline-block;
+}
+.tranding-products .cards #item-name{
+    font-size: 1rem;
+}
+.tranding-products .star-rating  span{
+    margin-top: .5rem;
+    display: inline-block;
+}
+.tranding-products .cards bdi{
+    padding-top: .2rem;
+    display: inline-block;
+}
+.tranding-products span bdi{
+    text-decoration: line-through;
+    padding-right: .3rem;
+    color: dimgrey;
 }
 /*################## Trainding Products SECTION Ended ################# */
