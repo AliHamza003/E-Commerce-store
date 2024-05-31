@@ -425,13 +425,14 @@ margin-right: -1rem;
 }
 .client-testomonials .cards .star-rating span{
     margin-top: 3rem;
-    
+    color: #FDBD37;
 }
 .client-testomonials .cards p{
     padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     line-height: 1.5rem;
+    color: #B0A7A4;
 }
 .client-testomonials img{
     margin-top: .8rem;
@@ -441,7 +442,6 @@ position: relative;
 width:  3rem;
 }
 .client-testomonials #name{
-    color: red;
     padding-top: 1.65rem;
     padding-left: 1rem;
     position: absolute;
