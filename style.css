@@ -425,8 +425,7 @@ margin-right: -1rem;
     background-repeat: no-repeat;
     background-size: 330px 380px;
     background-color: transparent;
-    opacity: 0.7;
-    color: transparent;
+
 }
 .client-testomonials #deals-card{
     position: relative;
@@ -447,6 +446,18 @@ margin-right: -1rem;
     display: inline-block;
     padding: 1rem 2.5rem 0 2.5rem;
 }
+.client-testomonials button{
+    /* margin-left: 21.5rem; */
+    display: inline-block;
+    margin-top: 1.5rem;
+    width: 9rem;
+    height: 2.7rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--sgreen);
+    color: white;
+    margin-top: 4.5rem;
+}
 .client-testomonials .cards .star-rating span{
     margin-top: 3rem;
     color: #FDBD37;
@@ -456,7 +467,7 @@ margin-right: -1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     line-height: 1.5rem;
-    color: #B0A7A4;
+    color: black
 }
 .client-testomonials img{
     margin-top: .8rem;
@@ -512,6 +523,7 @@ margin-right: -1rem;
 }
 .footer .short-intro p{
     text-align: start;
+    color: #B0A7A4;
 }
 .footer .quick-links{
     /* border: 1px solid red; */
@@ -530,7 +542,7 @@ margin-right: -1rem;
     text-decoration: none;
     padding-bottom: .3rem;
     display:block;
-    color: white;
+    color: #B0A7A4;
 }
 .footer .visit-areas{
     /* border: 1px solid red ; */
@@ -543,6 +555,7 @@ margin-right: -1rem;
 .footer .visit-areas ul li{
     list-style: none;
     padding-bottom: .3rem;
+    color: #B0A7A4;
 }
 .footer .visit-areas #q-links{
     padding-bottom: 1rem;
@@ -556,6 +569,9 @@ margin-right: -1rem;
     border: 1px solid white;
     margin-top: 1rem;
 }
+.footer .visit-areas p{
+    color: #B0A7A4;
+}
 .social-media-links{
 /* border: 1px solid red; */
 height: 5rem;
@@ -566,7 +582,7 @@ background-color: #111111;
 color: #B0A7A4;
 }
 .social-media-links hr{
-    color: white;
+    color: #B0A7A4;
     width: .2px;
 }
 /* ################## Footer SECTION Ended ################# */
