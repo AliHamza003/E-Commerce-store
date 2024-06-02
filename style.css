@@ -471,7 +471,7 @@ margin-right: -1rem;
     display: inline;
 }
 .featured-brands{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 10rem;
     display: flex;
     justify-content: space-evenly;
@@ -489,7 +489,7 @@ margin-right: -1rem;
 
 /* ################## Footer SECTION STARTED ################# */
 .footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 35rem;
     background-color: #111111;
     display: grid;
@@ -558,9 +558,8 @@ margin-right: -1rem;
 .social-media-links{
 border: 1px solid red;
 height: 5rem;
-text-align: start;
-justify-content: center;
-display: inline;
-padding-left: 20rem;
+display: flex;
+align-items: center;
+padding-left: 2rem;
 }
 /* ################## Footer SECTION Ended ################# */
