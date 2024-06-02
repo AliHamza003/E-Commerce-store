@@ -165,7 +165,7 @@ margin-right: -1rem;
 .products-container{
     /* border: 1px solid blue; */
     height: 97rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 .products-container .main-heading{
     text-align: center;
@@ -327,6 +327,7 @@ margin-right: -1rem;
 .t-products-container{
     /* border: 1px solid red; */
     height: 45rem;
+    margin-top: -2rem;
 }
 .t-products-container .main-heading{
     text-align: center;
