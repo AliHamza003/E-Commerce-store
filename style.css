@@ -493,10 +493,27 @@ margin-right: -1rem;
     height: 35rem;
     background-color: #111111;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 23rem auto auto;
     gap: 1rem;
+    color: white;
+    padding: 0 2rem 0 2rem;
 }
 .footer .short-intro{
     border: 1px solid red;
+    display: inline-block;
+    margin-top: 5rem;
+}
+.footer .short-intro img{
+    height: 65px;
+    max-width: 150px;
+    margin-bottom: 2.5rem;
+    margin-top: .8rem;
+}
+.footer .short-intro p{
+    text-align: start;
+}
+.footer .quick-links{
+    border: 1px solid red;
+    margin-top: 5rem;
 }
 /* ################## Footer SECTION Ended ################# */
