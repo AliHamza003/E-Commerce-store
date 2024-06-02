@@ -493,7 +493,7 @@ margin-right: -1rem;
     height: 35rem;
     background-color: #111111;
     display: grid;
-    grid-template-columns: 23rem 23rem auto;
+    grid-template-columns: 23rem 26rem auto;
     gap: 1rem;
     color: white;
     padding: 0 2rem 0 2rem;
@@ -537,6 +537,7 @@ margin-right: -1rem;
 }
 .footer h2{
     padding-bottom: 1.3rem;
+    font-size: 1.4rem;
 }
 .footer .visit-areas ul li{
     list-style: none;
@@ -545,5 +546,21 @@ margin-right: -1rem;
 .footer .visit-areas #q-links{
     padding-bottom: 1rem;
     padding-top: 2.5rem;
+}
+.footer .visit-areas img{
+    display: inline;
+    width: 6.5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border: 1px solid white;
+    margin-top: 1rem;
+}
+.social-media-links{
+border: 1px solid red;
+height: 5rem;
+text-align: start;
+justify-content: center;
+display: inline;
+padding-left: 20rem;
 }
 /* ################## Footer SECTION Ended ################# */
